@@ -1,0 +1,120 @@
+﻿
+body {
+    background-image: url('../Images/register.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 815px;
+}
+.container {
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(4, 44, 109, 0.50);
+    padding:16px;
+}
+#role, #gender {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    height: 40px;
+    padding-left: 40px;
+    margin-bottom:5px;
+}
+
+    /*.container .title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #fec107;
+        text-transform: uppercase;
+        text-align: center;
+    }*/
+/* Full-width input fields */
+input[type='text'] {
+    margin-top: 20px;
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+}
+
+input[type='password'] {
+    margin-top: 20px;
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+  
+    background-color: #fff;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+
+/* Set a style for all buttons */
+/*button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}*/
+b{
+    margin-top:10px;
+    font-size:18px;
+}
+
+#login {
+    font-size: 18px;
+}
+button {
+    text-align: center;
+    margin-top: 50px;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    background-color: #10f32d;
+    margin-left: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    button:hover {
+        opacity: 1;
+    }
+
+/* Extra styles for the cancel button */
+/*.cancelbtn {
+    padding: 14px 20px;
+    /*background-color: #f44336;*/
+}*/
+
+/* Float cancel and signup buttons and add an equal width */
+/*.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}*/
+
+
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+

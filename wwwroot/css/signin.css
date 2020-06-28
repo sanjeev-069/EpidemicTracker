@@ -1,0 +1,324 @@
+﻿body {
+    margin: 0 auto;
+    background-size: 100% 720px;
+    background-image: url('../Images/Epidemic Tracker.png');
+}
+
+
+.container{
+    
+    width:350px;
+    height:550px;
+    text-align:center;
+    margin: 0 auto;
+    background-color:rgba(4, 44, 109, 0.50);
+    margin-top:auto;
+    margin-right:5px;
+   
+    
+}
+#newPatient {
+    height: 35px;
+    width:144px;
+   background-color: rgba(4, 44, 109, 0.50);
+    color: rgba(255,255,255,0.8);
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+nav {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    background: rgba(4, 44, 109, 0.50);
+    box-shadow: 0px 2px 8px 0px #333;
+    margin-bottom: 20px;
+}
+header {
+    
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background: rgba(4, 44, 109, 0.50);
+    box-shadow: 0px 2px 8px 0px #333;
+
+}
+.header_menu {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+/*.menu_list{
+    width:80%;
+    text-align:right;
+    padding-right:51px;
+
+}*/
+
+    .menu_list li {
+        /*display:table-cell; 
+      text-transform:uppercase;
+      list-style:none;
+      padding-left:100px;
+  position:center;*/
+       float:left;
+    }
+        .menu_list li a {
+            display: block;
+            text-align: center;
+            padding: 27px 47px;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            
+        }
+    .active,.menu_list li a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+.nav-container{
+    position:relative;
+    /*width:1000px;*/
+    margin: 0 auto;
+}
+.fa-arrow-up {
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+    right: 91px;
+    top: 62px;
+    width: 0;
+    height: 0;
+    display:none;
+}
+.fa{
+    margin-right:3px;
+}
+
+.fa-envelope,.fa-lock {
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.menu {
+   
+    width: 150px;
+    height: 65px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /*letter-spacing: -0.05em;*/
+    position: relative;
+    color: #fff;
+    line-height: 46px;
+    text-anchor: middle;
+    display:flex;
+    right:125px;
+    /*bottom:10px;*/
+
+}
+
+    .menu > a {
+        color: #fff;
+        padding: 8px 30px;
+        background-color: #06369F;
+        border: 1px solid transparent;
+        border-radius: 30px;
+        margin-left: 20px;
+    }
+    .menu > a:hover {
+        color: #fff;
+        
+    }
+.login-form{
+    position:absolute;
+    width:300px;
+    height:auto;
+    background:rgba(4, 44, 109, 0.80);
+    right:4px;
+    top:82px;
+    border-radius:3px;
+    border-bottom:5px solid gray; 
+    display:none;
+}
+img {
+  width: 350px;
+  height: 350px;
+}
+
+h5 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+    text-align: right;
+    padding-right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type='text']{
+    margin-top: 80px;
+    height: 40px;
+    width: 220px;
+    font-size:18px;
+    margin-bottom:auto;
+    background-color:#fff;
+    padding-left:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+input[type='password']{
+    margin-top: 50px;
+    height: 40px;
+    width: 220px;
+    font-size: 18px;
+    margin-bottom: auto;
+    background-color: #fff;
+    padding-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+i {
+    margin-top: 36px;
+    font-size: 40px;
+
+   
+}
+
+
+button[type='submit'] {
+    text-align: center;
+    margin-top: 50px;
+    height: 45px;
+    width:200px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    background-color: #10f32d;
+    margin-left:68px;
+    /*padding-left:20px;
+    padding-right:20px;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    button[type='submit']:hover {
+        background: #0a4b33;
+    }
+
+#welcomeMessage {
+  
+    height: 35px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    /*letter-spacing: -0.05em;*/
+    position: relative;
+    color: #000;
+    line-height: 65px;
+    text-anchor: middle ;
+    right: 170px;
+    bottom:70px;
+    
+}
+.logoutbtn {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /*letter-spacing: -0.05em;*/
+    position: relative;
+    color: rgba(255,255,255,0.8);
+    /*line-height: 65px;
+    text-anchor: middle;*/
+    bottom: 55px;
+    background-color: rgba(4, 44, 109, 0);
+    padding: 8px 30px;
+    background-color: #ff0060;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.logoutbtn:hover{
+    color:darkred;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+#footer-area {
+    padding: 65px 0 60px 0;
+    background: gray;
+    color: #fff;
+    height: 500px;
+}
+.footer-social{
+    margin-top:20px;
+    display:flex;
+}
+    .footer-social li a {
+        margin-top: 20px;
+        padding-left: 25px;
+        width: 30px;
+        height: 30px;
+        display:inline-block;
+        background: gray;
+    }
+.single-footer h3{
+    font-weight:500;
+    margin-bottom:25px;
+    color:#fafafa;
+    font-family:'Microsoft Sans Serif';
+}
+.single-footer{
+    padding-left:130px;
+}
+.link-area li{
+      padding:0 5px 5px 0;
+      list-style:none;
+}
+.link-area{
+    padding:0;
+}
+    .link-area li a {
+        text-transform: capitalize;
+        color: #ddd;
+        font-family: 'Microsoft Sans Serif';
+    }
+        /*.link-area li a i {
+            margin-right: 10px;
+            color: #ddd;
+            font-family: 'Microsoft Sans Serif';
+        }*/
+.single-footer p {
+    font-family: 'Microsoft Sans Serif';
+}
+.footer-social li a{
+    
+}
+    .footer-social li a i {
+        color: #fff;
+        padding: 8px;
+    }
+
+.copyright-area {
+    background: #000;
+    padding: 30px 0;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 145px;
+}
+h4{
+    color:#fff;
+}

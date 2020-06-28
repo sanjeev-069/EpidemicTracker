@@ -1,0 +1,48 @@
+﻿body {
+    background-image: url('../Images/occupation.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 780px;
+}
+.container {
+    
+    width: 500px;
+    height: 640px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(4, 44, 109, 0.50);
+}
+input[type='text'] {
+    margin-top: 10px;
+    height: 20px;
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#worktype{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 250px;
+    padding-left: 40px;
+}
+h3 {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    text-align: center;
+    
+    height: 45px;
+    width: 180px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    background-color: #10f32d;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
