@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Update Patient</title>
+</head>
+<body>
+    <div id="header"></div>
+    <link href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <h1 style="text-align:center">Patient List </h1>
+    <table class="table table-bordered"></table>
+    <button onclick="cured()">Cured</button>
+    <button onclick="uncured()">Under Treatment</button>
+    <button onclick="fatal()">Fatal</button>
+    <p id="demo"></p>
+
+    <div>
+        <table id="patient"></table>
+        <table id="uncuredPatient"></table>
+        <table id="fatal"></table>
+    </div>
+    <script src="js/editpatient.js"></script>
+
+    <div class="update-patient" style="display:none">
+        <form action="javascript:void(0);" method="PUT" onsubmit="updatePatientDetail()">
+            <div class="update" align="center">
+
+                <br />
+                <label for="pat_name"><b></b></label>
+                <input type="text" placeholder="Patient Name" id="patientName" required>
+                <br /><br />
+
+                <label for="pat_number"><b></b></label>
+                <input type="text" placeholder="Phone Number" id="phoneNumber" required>
+                <br /><br />
+
+
+                <label for="gender"><b></b></label>
+                <input type="text" placeholder="Gender" id="gender" required>
+                <br /><br />
+
+                <label for="age"><b></b></label>
+                <input type="text" placeholder="Age" id="age" required>
+                <br /><br />
+
+
+
+                <label for="diseaseType"><b></b></label>
+                <input type="text" placeholder="Disease Type" id="diseaseType" required>
+                <br /><br />
+
+                <label for="diseaseName"><b></b></label>
+                <input type="text" placeholder="Disease Name" id="diseaseName" required>
+                <br /><br />
+
+                <label for="admitDate"><b></b></label>
+                <input type="text" placeholder="Admit Date" id="admitDate" required>
+                <br /><br />
+
+                <label for="relievingDate"><b></b></label>
+                <input type="text" placeholder="Relieving Date" id="relievingDate" required>
+                <br /><br />
+
+                <label for="isFatality"><b></b></label>
+                <input type="text" placeholder="Is Fatality" id="isFatality" required>
+                <br /><br />
+
+                <label for="prescription"><b></b></label>
+                <input type="text" placeholder="Prescription" id="prescription" required>
+                <br /><br />
+
+                <label for="currentStage"><b></b></label>
+                <input type="text" placeholder="Current Stage" id="currentStage" required>
+                <br /><br />
+
+                <input type="submit" name="submit" value="Update" />
+
+            </div>
+
+
+
+        </form>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>

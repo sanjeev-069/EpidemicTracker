@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/treatmentDetail.css" />
+    <title>Treatment</title>
+    <!--<link rel="stylesheet" href="main.css">-->
+</head>
+<body>
+    <div id="header"></div>
+    <script src="js/treatmentDetail.js" asp-append-version="true"></script>
+    <script type="text/javascript"></script>
+    <center>
+        <form action="javascript:void(0);" method="POST" onsubmit="addTreatmentDetail(); addDisease();">
+            <h1>Treatment Detail Form</h1>
+            <div class="container">
+
+                <!--<p>Please fill in this form to create an account.</p>-->
+                <hr>
+                <label for="diseaseName"><b></b></label>
+                <div class="diseaseName">
+                    <select id="diseaseName">
+                        <option value="">--Select Disease Name--</option>
+                        <option value="Liver Disease">Liver Disease</option>
+                        <option value="Heart Disease">Heart Disease</option>
+                        <option value="Infectious Disease">Infectious Disease</option>
+                        <option value="Cancer">Cancer</option>
+                    </select>
+                </div>
+                <br />
+                <label for="diseaseType"><b></b></label>
+                <input type="text" placeholder="Disease Type" id="diseaseType" required>
+                <br />
+
+                <label for="admit_date"><b>Admit Date</b></label><br />
+
+                <input type="date" name="Admit Date" id="admit_date" required>
+                <br />
+
+
+
+                <label for="rel_date"><b>Relieving Date</b></label><br />
+                <input type="date" name="Relieving Date" id="rel_date">
+                <br />
+
+                <label for="fatal"><b>Is Fatality</b></label>
+                <div class="fatal">
+                    <select id="fatal">
+                        <option value="">--Select--</option>
+                        <option value="Alive">Alive</option>
+                        <option value="Dead">Dead</option>
+                    </select>
+                </div>
+                <br />
+
+                <label for="stage"><b>Current Stage</b></label><br />
+                <select id="stage" class="dropbtn" name="stage" required>
+                </select>
+                <br />
+
+                <label for="prescription"><b>Prescription</b></label><br />
+                <input type="text" placeholder="Prescription" size="150" id="prescription" required>
+                <br />
+
+                <div class="clearfix">
+                    <button type="button" onClick="javascript:history.go(-1)" class="backbtn">Back</button>
+                    <button type="submit" class="enterbtn">Finish</button>
+                </div>
+
+            </div>
+
+        </form>
+    </center>
+    <div id="footer"></div>
+</body>
+</html>
